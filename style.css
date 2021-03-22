@@ -6,8 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+ 
 }
 
 header{
@@ -29,19 +28,26 @@ header{
     margin: .25rem;
     align-items: center;
     justify-content: center;
+  
+}
+.burger:hover{
+border-radius: 100%;
+background-color: rgba(0, 0, 0, 0.164);
+transition: 500ms;
 }
 .burger{
     display: flex;
     flex-direction: column;
     position: relative;
     font-weight: 900;
-    
+    padding: .5rem;
+    margin: .5rem;
 }
 .burger::after{
     display: block;
     position: absolute;
     color: black;
-    top: -1rem;
+    top: -.70rem;
     content: "__";
     font-weight: 900;
 }
@@ -50,7 +56,7 @@ header{
     display: block;
     position: absolute;
     color: black;
-    top: -.5rem;
+    top: -.10rem;
     content: "__";
     font-weight: 900;
 }
@@ -124,17 +130,25 @@ main{
 }
 
 .video-nav{
-    flex-grow: 1/10;
+    flex-grow: .02;
     background-color: white;
     display: flex;
     flex-direction: column;
     padding: .5rem;
     gap: 1rem;
+    align-items: center;
+  
+
     
 }
+.vid-nav-category-title{
+    color: black;
+}
+.vide-nav > i{
+    color: red;
+}
 .video-nav > div{
-    justify-content: center;
-    align-items: center;
+   text-align: center;
 }
 
 main > section{
@@ -234,4 +248,8 @@ main > section{
 
 .special-category > .video-category{
     border: none;
+}
+
+.video-nav{
+    transition: 250ms;
 }
