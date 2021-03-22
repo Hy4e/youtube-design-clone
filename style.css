@@ -198,7 +198,28 @@ main > section{
    flex-grow: 1;
 }
 .video-category{
-    border-top: 1px solid black;
+    border-top: 2px solid rgba(0, 0, 0, 0.329);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.329);
+    padding: .5rem;
+    margin: .5rem;
     display: grid;
-    grid-template-rows: minmax(auto-fil, auto-fil);
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.video-category:first-child{
+    border-top: none;
+}
+
+.special-category{
+
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.special-category-title{
+    padding: 1rem;
+    font-weight: bold;
 }
