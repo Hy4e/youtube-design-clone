@@ -70,7 +70,7 @@ transition: 500ms;
     width: 100%;
     padding: .5rem;
     outline-color: rgba(83, 111, 185, 0.856);
-    border: 1px solid rgba(0, 0, 0, 0.459);
+    border: 1px solid rgba(0, 0, 0, 0.199);
 }
 
 .input-container{
@@ -86,7 +86,7 @@ transition: 500ms;
 .search-icon{
     background-color: rgba(226, 226, 226, 0.938);
     padding: .5rem 2rem;
-    border: 1px solid rgba(0, 0, 0, 0.459);
+    border: 1px solid rgba(0, 0, 0, 0.199);
     border-left: none;
 }
 
