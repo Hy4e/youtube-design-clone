@@ -68,7 +68,7 @@ transition: 500ms;
 
 .search-input{
     width: 100%;
-    padding: .5rem;
+    padding: .25rem;
     outline-color: rgba(83, 111, 185, 0.856);
     border: 1px solid rgba(0, 0, 0, 0.199);
 }
