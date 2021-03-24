@@ -6,7 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
- 
+    font-family: 'Roboto', sans-serif;
 }
 
 header{
@@ -62,8 +62,8 @@ transition: 500ms;
 }
 
 .logo{
-    width: 4.5rem;
-    height: 2.5rem;
+    width: 4.25rem;
+    height: 1.5rem;
 }
 
 .search-input{
