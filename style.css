@@ -47,8 +47,8 @@ transition: 500ms;
     display: block;
     position: absolute;
     color: black;
-    top: -.30rem;
     content: "__";
+    top: 1rem;
     font-weight: 900;
 }
 
@@ -56,8 +56,8 @@ transition: 500ms;
     display: block;
     position: absolute;
     color: black;
-    top: -.005rem;
     content: "__";
+    top: 0;
     font-weight: 900;
 }
 
