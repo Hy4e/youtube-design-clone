@@ -6,13 +6,12 @@ switcher = true
 
 burger.addEventListener('click', (e)=>{
     const videoNav = document.getElementById('video-nav')
-    console.log("pizda")
     if(switcher === true){
-        videoNav.style.display = "none"
+        videoNav.style.transform = "translateX(-200%)"
      
     }
     else{
-        videoNav.style.display = "block"
+        videoNav.style.transform = "translateX(0%)"
     }
     switcher = !switcher
 })

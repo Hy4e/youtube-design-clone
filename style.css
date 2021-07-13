@@ -1,7 +1,10 @@
 *, *::after, *::before{
     margin: 0;
     box-sizing: border-box;
+    scrollbar-width: none;
 }
+
+
 
 body{
     display: flex;
@@ -12,54 +15,43 @@ body{
 header{
     flex-grow: .05;
     background-color: white;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
    margin: .5rem;
    max-height: 2rem;
+
 }
 
 .burger-container{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    padding: .1rem;
     margin: .25rem;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
+    ;
   
 }
-.burger:hover{
-border-radius: 100%;
-background-color: rgba(0, 0, 0, 0.164);
-transition: 500ms;
+#burger div{
+
+
+    padding: .075rem;
+    background-color: hsla(0, 4%, 10%, 0.918);
+    width: 1rem;
+    height: 0.1rem;
 }
-.burger{
+
+#burger{
     display: flex;
     flex-direction: column;
     position: relative;
-    font-weight: 900;
-    padding: .5rem;
-    margin: .5rem;
-}
-.burger::after{
-    display: block;
-    position: absolute;
-    color: black;
-    content: "__";
-    top: 1rem;
-    font-weight: 900;
+    margin: 0.25rem;
+    gap: .1rem;
+    padding: 1rem;
 }
 
-.burger::before{
-    display: block;
-    position: absolute;
-    color: black;
-    content: "__";
-    top: 0;
-    font-weight: 900;
-}
 
 .logo{
     width: 4.25rem;
@@ -211,6 +203,7 @@ main > section{
     display: flex;
    flex-direction: column;
    flex-grow: 1;
+
 }
 .video-category{
     border-top: 2px solid rgba(0, 0, 0, 0.329);
